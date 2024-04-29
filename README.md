@@ -1,7 +1,9 @@
 # VTON_Yash_internship
 ### 1. Create and Activate Virtual Environment
 # Create virtual environment
+```python
 python -m venv venv
+```
 
 # Activate virtual environment
 # Windows
