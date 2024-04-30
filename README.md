@@ -121,3 +121,7 @@ Please refer to the `requirements.txt` file for the complete list of dependencie
 - sample multiview gifs
   ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/blob/main/assests/Virtual%20Try%20on%20(2).svg)
 
+## ppt/yt links 
+- https://docs.google.com/presentation/d/1LKf05Ficx8ONUmSbpfWhh17VmTftko__SLp1JVyyvw8/edit?usp=sharing
+- https://www.youtube.com/watch?v=zXVoXbgFv14
+- https://www.youtube.com/watch?v=XVMih_UxdB0
