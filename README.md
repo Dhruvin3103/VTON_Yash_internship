@@ -104,3 +104,19 @@ The main dependencies used in this project are:
 
 
 Please refer to the `requirements.txt` file for the complete list of dependencies and their versions.
+
+## Comparison between various models
+![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/7bd17810-46fd-4062-9e28-170f7e8a2386)
+![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/18eb1f85-a91c-4b88-b179-14546dfd21bb)
+
+## Screeshots
+- Inital page
+![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/0bde0076-2811-48dc-89eb-7b1a6a01d9bf)
+- vton tab
+  ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/43a3617e-6cb7-4c31-a7f2-17fb66744115)
+  ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/c9902efb-54ec-46cc-947e-2bd24e8ae7d8)
+- Search tab
+  ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/3edc8b33-f4e6-4fb4-8c98-e3af8c2aa0aa)
+
+
+
