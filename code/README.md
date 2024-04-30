@@ -1,4 +1,4 @@
-Sure, here's the flow of the code with detailed explanations:
+Here's the flow of the overall code and how it works:
 
 1. **Imports and Configuration**:
    - The code imports necessary libraries and modules, including Streamlit for the web application, Replicate for running machine learning models, Cloudinary for image hosting and manipulation, and other libraries for web scraping and image processing.
