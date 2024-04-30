@@ -1,4 +1,19 @@
 # VTON_Yash_internship
+
+# State Of The Art Virtual Try-On (SOTA VTON)
+
+This repository contains a Streamlit application that allows users to perform virtual try-on of garments on model images. Additionally, it provides a garment search feature that scrapes data from various e-commerce websites such as Bewakoof, Amazon, and Ajio. The application also generates a GIF showcasing the output image from different angles using a multi-view diffusion model.
+
+## Features
+
+1. **Virtual Try-On (VTON)**: Users can upload a garment image and a model image, and the application will generate an output image with the garment virtually tried on the model.
+2. **Garment Search**: Users can search for garments on Bewakoof, Amazon, or Ajio by entering a search query. The application scrapes the websites and displays the results, allowing users to select a garment and try it on.
+3. **Multi-View Diffusion**: The application generates a GIF showcasing the output image from different angles using a multi-view diffusion model.
+
+## Installation
+
+1. Clone the repository:
+
 ### 1. Create and Activate Virtual Environment
 # Create virtual environment
 ```python
@@ -61,3 +76,31 @@ To run the application, follow these steps:
 ```python
 streamlit run app.py
 ```
+
+## Usage
+
+1. Open the Streamlit application in your web browser.
+2. Navigate to the "VTON" tab to perform virtual try-on.
+- Upload a garment image and a model image using the respective file uploaders.
+- Select the category (upper_body, lower_body, or dresses) for the garment.
+- Optionally, provide a garment description.
+- Click the "Run" button to generate the output image.
+3. Navigate to the "Garment Search" tab to search for garments.
+- Enter a search query and select the desired website (Bewakoof, Amazon, or Ajio).
+- Click the "Search" button to retrieve the search results.
+- Click the "Try on" button next to a garment to try it on the model.
+4. Navigate to the "Multi-View" tab to generate a GIF showcasing the output image from different angles.
+- The GIF will be automatically generated if an output image is available from the "VTON" tab.
+
+## Dependencies
+
+The main dependencies used in this project are:
+
+- Streamlit
+- Replicate/HuggingFace
+- Cloudinary
+- Selenium
+- BeautifulSoup
+
+
+Please refer to the `requirements.txt` file for the complete list of dependencies and their versions.
