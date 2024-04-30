@@ -14,24 +14,24 @@ This repository contains a Streamlit application that allows users to perform vi
 
 1. Clone the repository:
 
-### 1. Create and Activate Virtual Environment
-# Create virtual environment
+## 1. Create and Activate Virtual Environment
+### Create virtual environment
 ```python
 python -m venv venv
 ```
 
-# Activate virtual environment
-# Windows
+### Activate virtual environment
+#### Windows
 ```cmd
 venv\Scripts\activate
 ```
 
-# macOS/Linux
+#### macOS/Linux
 ```bash
 source venv/bin/activate
 ```
 
-### 2. Install Requirements
+## 2. Install Requirements
 
 Before running the application, make sure to install the required dependencies by executing the following command:
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 
-### 3. Add Environment Variables
+## 3. Add Environment Variables
 
 To configure your environment variables, follow these steps:
 
@@ -55,7 +55,7 @@ API_SECRET=your_api_secret
 REPLICATE_API_TOKEN=your_replicate_api_token
 ```
 
-### 4. Install Chrome WebDriver (For Linux/Mac)
+## 4. Install Chrome WebDriver (For Linux/Mac)
 
 If you're using Linux or macOS, you'll need to install Chrome WebDriver. Follow these steps:
 
@@ -65,7 +65,7 @@ If you're using Linux or macOS, you'll need to install Chrome WebDriver. Follow 
 
 Chrome WebDriver is required for web scraping functionalities in the project. Ensure you download the appropriate version compatible with your Chrome browser version.
 
-### 5. Run the Application
+## 5. Run the Application
 
 To run the application, follow these steps:
 
