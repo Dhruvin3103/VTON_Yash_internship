@@ -48,8 +48,6 @@ tabs = st.tabs(["VTON", "Garment Search","multiview"])
 
 # some of the utils function : 
 def enhance(img):
-    print(img)
-    print('running','gif wala ')
     output = replicate.run(
         "batouresearch/magic-image-refiner:507ddf6f977a7e30e46c0daefd30de7d563c72322f9e4cf7cbac52ef0f667b13",
         input={
@@ -67,11 +65,10 @@ def enhance(img):
                 "negative_prompt": "Additional arms, Extra legs, Unpleasant proportions, Long neck, Low-grade, Low resolution, Lack of arms legs, Unhealthy, Genetic variation, Beyond the frame, Inserted text, Unattractive, Lowest quality, Extra limbs, Additional fingers, Extra body parts, Changed limbs, Person with a missing limb, Uneven ears, Bad body structure, Bad eyes, face, Facial hair, Injured finger, hand, leg, wrist, Animated drawing, Immature, Cloned facial, features, Collapsed eye makeup, Joined limbs, Connected, Dead body, Person with physical challenges, Cut-off head, Sad, Dried out, Two-faced, Duplicated characteristics, Creepy, Extended neck"
             }
     )
-    print(output)
+
     return output
 
 def create_gif(image_path, duration=500):
-    print('okey dokey : )')
     upload_result = cloudinary.uploader.upload(image_path)["secure_url"]
     image_path = enhance(upload_result)
     # image_data = response.content  
@@ -115,8 +112,7 @@ def crop_image(image_url):
 
 # Garment Search Tab
 with tabs[1]:
-    def printkarna(img):
-        print(img,'hein ? ? ')
+    def display_img(img):
         with tempfile.NamedTemporaryFile(delete=False, suffix=".png") as tmp_garment_img:
             tmp_garment_img.write(img.tobytes())
             # print(tmp_garment_img,garment_img_path)
@@ -153,7 +149,7 @@ with tabs[1]:
                 with cols[i % 5]:
                     st.image(img, caption=f"{name}, {rating}⭐, {price}", use_column_width=True, output_format='JPEG')
                     # button_key = f"{name}{i}"
-                    show_garment = st.button(label="Try on", key=i,on_click=printkarna, kwargs=dict(img=img))
+                    show_garment = st.button(label="Try on", key=i,on_click=display_img, kwargs=dict(img=img))
                     print(show_garment)
                     if show_garment:
                         print('hi')
