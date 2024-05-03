@@ -118,5 +118,10 @@ Please refer to the `requirements.txt` file for the complete list of dependencie
 - Search tab
   ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/assets/114014218/3edc8b33-f4e6-4fb4-8c98-e3af8c2aa0aa)
 
+- sample multiview gifs
+  ![image](https://github.com/Dhruvin3103/VTON_Yash_internship/blob/main/assests/Virtual%20Try%20on%20(2).svg)
 
-
+## ppt/yt links 
+- https://docs.google.com/presentation/d/1LKf05Ficx8ONUmSbpfWhh17VmTftko__SLp1JVyyvw8/edit?usp=sharing
+- https://www.youtube.com/watch?v=zXVoXbgFv14
+- https://www.youtube.com/watch?v=XVMih_UxdB0
